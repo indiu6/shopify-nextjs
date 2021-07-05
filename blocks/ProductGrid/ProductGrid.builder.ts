@@ -1,9 +1,11 @@
 import dynamic from 'next/dynamic'
 import { Builder } from '@builder.io/react'
 import { Input } from '@builder.io/sdk'
+
 const LazyProductGrid = dynamic(async () => {
   return (await import('./ProductGrid')).ProductGrid
 })
+
 const isDemo = Boolean(process.env.IS_DEMO)
 
 const productCardFields: Input[] = [
