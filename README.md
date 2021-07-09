@@ -1,5 +1,4 @@
-
-# Next.js + Shopify + Builder.io 
+# Next.js + Shopify + Builder.io
 
 - Ultra high performance
 - SEO optimized
@@ -8,3 +7,8 @@
 - Builder.io Visual CMS integrated
 - Connect to Shopify data through Builder's high speed data layer
 
+## USED ENV in Vercel for Deployment
+
+- SHOPIFY_STOREFRONT_API_TOKEN
+- SHOPIFY_STORE_DOMAIN
+- BUILDER_PUBLIC_KEY
